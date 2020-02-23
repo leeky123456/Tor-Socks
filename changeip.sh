@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 while true; do
  /etc/init.d/tor force-reload
  sleep 60s
